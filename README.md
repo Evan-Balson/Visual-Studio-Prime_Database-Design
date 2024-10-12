@@ -3,7 +3,7 @@ Documenting My DataBase Design - Spring Edition
 Submitted by: Evan Balson
 ### Time spent: 30 days
 
-<img src='https://github.com/Evan-Balson/Footballer_Skills_CLI/blob/main/footballer_skill_CLI.png' />
+<img src='https://github.com/Evan-Balson/Visual-Studio-Prime_Database-Design/blob/main/Documenting%20My%20DataBase%20Design%20-%20Spring%20Edition.png' />
 
 # Visual Studio Prime Cinema DBMS
 This design is based on the following premise: Visual-Studio Prime envisions itself as a pioneering force in the global cinema industry, committed to delivering unparalleled movie-watching experiences across its multiple locations worldwide. The company's business model revolves around providing a unique blend of cutting-edge technology, immersive entertainment, and personalized services to its customers.
