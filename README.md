@@ -98,13 +98,13 @@ The Documentation provides a step by step outline for for the following requirem
 # 3. Requirements
 ------------------------------------------------------------------------
 ## Prerequisites:
-1. MySQL: Ensure that MySQL is installed on your system. You can download it from mysql.com.
+1. MySQL: Ensure that MySQL is installed on your system. You can download it from [mysql.com](https://www.mysql.com/).
 
-2. XAMPP: Download and install XAMPP to create a local server environment from Apache Friends.
+2. XAMPP: Download and install XAMPP to create a local server environment from [Apache Friends](https://www.apachefriends.org/download.html).
 
 3. SQL Client: You may want to use an SQL client such as MySQL Workbench to interact with your database more easily.
 
-4. Python (optional): If utilizing Python for any additional tasks, ensure it is installed on your system. You can download it from python.org.
+4. Python (optional): If utilizing Python for any additional tasks, ensure it is installed on your system. You can download it from [python.org](https://www.python.org/).
 
 5. tabulate Library (optional): If using Python, install the tabulate library for displaying formatted tables: pip install tabulate.
 
