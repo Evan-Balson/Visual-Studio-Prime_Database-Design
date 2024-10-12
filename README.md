@@ -1,110 +1,61 @@
-Footballer_Skills.py: Explores Basic Python Principles
+Documenting My DataBase Design - Spring Edition
 
 Submitted by: Evan Balson
-### Time spent: 20 days
+### Time spent: 30 days
 
 <img src='https://github.com/Evan-Balson/Footballer_Skills_CLI/blob/main/footballer_skill_CLI.png' />
 
-# Footballer_Skills_CLI
-This Python Command Line Interface (CLI) program aims to encapsulate functionalities essential for  comprehensive football player evaluation. This will include an organized code structure, employing  variables, functions, control structures, lists and standard libraries enhancing modularity and readability.
+# Visual Studio Prime Cinema DBMS
+This design is based on the following premise: Visual-Studio Prime envisions itself as a pioneering force in the global cinema industry, committed to delivering unparalleled movie-watching experiences across its multiple locations worldwide. The company's business model revolves around providing a unique blend of cutting-edge technology, immersive entertainment, and personalized services to its customers.
 
 
 ## Description:
-Footballer_Skills.py: Explores Essential Python Principles, showcasing the flexibility of this IDE in computing. It will explore fundamental arithmetic, subroutines, and control flow with sample a sample program which we will develop into an advanced program with robust error & exception handlining:
+This project involved the design and implementation of a relational database system for an international movie theatre chain, Visual-Studio Prime. Utilizing tools like VS Code, MySQL, and XAMPP, the DBMS was developed to manage critical operations such as customer management, ticketing, and scheduling. The system features a scalable design with 14 entity sets, supporting efficient data handling, reporting, and customer loyalty programs. This documentation outlines the comprehensive process for building a robust database tailored to meet the real-world demands of a global enterprise.
+
+### The project Brief:
+
+Please be advised that this project serves as a demonstration for a hypothetical company.
+
+This project identifies a business within the international movie theater industry that has a pressing need for an efficient relational database management system (DBMS). Currently, the company faces challenges in managing vast amounts of customer data, tracking movie schedules, handling ticket sales, and providing personalized services. These operational hurdles hinder their ability to deliver a seamless customer experience and make data-driven decisions.
+
+To address these challenges, the project proposes a comprehensive DBMS that will streamline the organization's operations and enhance customer engagement. This solution will provide the capability to efficiently store, retrieve, and manage critical data, answering key business questions related to customer preferences, sales performance, and overall operational efficiency.
+
+The design phase will involve creating a detailed Entity-Relationship Diagram (ERD) that maps the logical representation of the database, outlining all necessary entities and their interrelationships. This foundational step will ensure that the DBMS is aligned with the company's operational goals.
+
+In the implementation phase, Data Definition Language (DDL) statements will be utilized to establish the database structure, which includes creating tables with appropriate constraints, such as data types, primary keys, and foreign keys. Each table will be populated with a minimum of five meaningful records to facilitate data retrieval and operational queries.
+
+The resulting DBMS will empower the movie theater company to improve customer satisfaction, enhance resource management, and drive revenue growth through informed decision-making. Ultimately, this project aims to create a robust database solution tailored to the specific needs of the movie theater industry, thereby addressing the operational challenges faced by the business.
 
 
-## Basic flow chart for simple progam
-<img src='https://github.com/Evan-Balson/Footballer_Skills_CLI/blob/main/basic%20flow%20chart.jpg'/>
+## Documentation:
+The Documentation provides a step by step outline for for the following requirements:
 
-### Implement input function to collect player data for:
-* [x] Speed
-* [x] Shooting
-* [x] Passing
-* [x] Defending
-* [x] Dribbling
-* [x] Physicality
-### Use an appropriate data structure to store:
-* [x] Player skill ratings
-* [x] Calculated overall rates
-* [x] Corresponding salaries
-### Calculate the overall rate using the formula:
-* [x] Summation of skill ratings * 100 / 30
-* [x] Implement salary estimation logic:
-* [x] Overall rate >= 80: Salary = 1000
-* [x] Overall rate == 60: Salary = 700
-* [x] 45 <= Overall rate < 60: Salary options = 700, 500
-* [x] Overall rate == 45: Salary = 500
-* [x] 30 <= Overall rate < 45: Salary options = 500, 400
-* [x] Overall rate <= 30: Salary = 400
-* [x] Print the computed salary value(s) as integers.
-### Ensure the program follows a clear structure with appropriate functions:
-* [x] Function to collect input
-* [x] Function to calculate overall rate
-* [x] Function to determine salary
-* [x] Function to output results
-* [x] (Optional) Add validation and error handling for input values to ensure they are within the range 0-5.
+### Database Design & Business Overview:
+* [x] Introduction
+* [x] Key elements of Visual-Studio Prime
+* [x] What is an Entity-Relationship Diagram (ERD)
+* [x] What is a Physical Data Model Diagram
+* [x] A Detailed Outline of Visual Studio Prime
+* [x] Objectives at Visual Studio Prime
+* [x] The Entity Relation Diagram
+* [x] The Physical Data Model Diagram
+* [x] Findings & Conclusion
+* [x] References
 
-
-## Flow chart for advanced Program:
-* [x] Design pseudocode or draw a flowchart for the program.
-
-<img src='https://github.com/Evan-Balson/Footballer_Skills_CLI/blob/main/advanced%20flow%20chart.png' />
-
-
-
-## Solution for Advanced Program:
-
-### Checklist for Functions:
-* [x]  Split and pack up coursework 1 code into functions.
-* [x]  Implement main() function.
-* [x]  Implement calculate_rating() function.
-* [x]  Implement calculate_salary() function.
-* [x]  Use main() to call other functions:
-* [x]  Receive 6 player skill ratings.
-* [x]  Calculate the player's overall rating.
-* [x]  Calculate the player's salary range.
-### Checklist for Input Expansion
-* [x]  Adjust the program to ask for:
-* [x]  Player ID (2-digit number).
-* [x]  Player name.
-* [x]  Player date-of-birth (D.o.B) in ISO format (YEAR-MONTH-DATE).
-* [x]  Ask for the 6 skills (speed, shooting, passing, defending, dribbling, physicality).
-### Checklist for Looping the Code
-#### Implement a loop to:
-* [x]  Ask for information for three players, or
-* [x]  Until the input for user ID is "end".
-### Checklist for Calculating Overall Ratings
-* [x]  Calculate the players' overall ratings.
-* [x]  Store the overall ratings for later use.
-### Checklist for Calculating Salary Ranges
-* [x]  Calculate the players' salary ranges.
-* [x]  Store the salary ranges for later use.
-### Checklist for Calculating Players' Ages
-* [x]  Calculate each player's age based on year of birth.
-* [x]  Store the age for later use.
-### Checklist for Tabulating Data
-* [x]  Use the tabulate library to display a table summarizing input data in ascending order of user ID.
-* [x]  Table columns: UID, Name, D.o.B, Age, Score, Salary Range.
-### Checklist for File Writing
-* [x]  Save the summary table into a local file named "players.txt".
-### Checklist for Input Validation
-* [x]  Implement robust input validation:
-* [x]  Validate player ID.
-* [x]  Validate D.o.B.
-* [x]  Validate ratings.
-* [x]  Display warning "The rating you entered was invalid" for any input errors.
-### Checklist for Data Structures
-* [x]  Use appropriate data structures for storing player information.
-### Checklist for Code Structures
-* [x]  Use appropriate code structures for implementing the functionality.
-### Checklist for Distinction Advanced Function
-* [x]  Implement advanced() function:
-* [x]  Serve as a complimentary main() method.
-* [x]  Use the provided file as input instead of user input.
-* [x]  Accept filename as an argument.
-* [x]  Read user information record from provided file "PlayerData.txt".
-* [x]  Use this data as input for the program.
-* [x]  Call all other functions and produce a text file output.
+### Implementation:
+* [x] Abstract
+* [x] Introduction
+* [x] Methodology
+* [x] CREATE DATABASE
+* [x] CREATE TABLE
+* [x] Linkage Tables
+* [x] INSERT
+* [x] Testing and Validation
+* [x] Test 1: Data Integrity Test Case
+* [x] Test 2: Query Performance Test Case
+* [x] Evan's Conclusion & Reflection
+* [x] Partner's Contribution
+* [x] References
 
 
 ## Table of Content:
@@ -118,36 +69,45 @@ Footballer_Skills.py: Explores Essential Python Principles, showcasing the flexi
 ------------------------------------------------------------------------
 # 1. TECHNOLOGIES USED:
 ------------------------------------------------------------------------
-1. Python: Used as the primary programming language for developing the application.
-2. os: Used for accessing operating system dependent functionality such as file handling.
-3. tabulate: Used for creating well-formatted tables to display player information.
-4. datetime: Used for manipulating dates and times, crucial for calculating players' ages.
-5. re: Used for regular expression operations to validate input data like dates.
-
+1. MySQL: Used as the primary database management system for storing and managing data related to the movie theater operations.
+2. SQL: Utilized for writing queries to create, read, update, and delete data within the database.
+3. XAMPP: A local server environment used to host the MySQL database, facilitating development and testing.
+4. Visual Studio Code: The integrated development environment (IDE) used for writing and editing SQL scripts.
+5. Python (optional): Can be utilized for additional data manipulation or automation tasks, if necessary.
 
 ------------------------------------------------------------------------
 # 2. Instructions:
 ------------------------------------------------------------------------
 1. Clone the repository to your local machine.
 2. Navigate to the project directory in the terminal.
-3. Install the required Python libraries.
-4. Run the Python script.
-5. Follow the on-screen prompts to enter player information.
-6. The summary table will also be saved to a file named players.txt.
-
+3. Set up the XAMPP server and ensure the MySQL module is running.
+4. Open phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser.
+5. Import the Sample Database:
+    - Click on the Databases tab and create a new database (name it "visual_studio_prime").
+    - Select the newly created database from the left sidebar.
+    - Click on the Import tab.
+    - Click Choose File and select the sample database file provided in the repository (e.g., visual_studio_prime.sql).
+    - Click the Go button to import the database structure and data.
+6. Use SQL queries to interact with the database and retrieve information as needed.
+7. The diagrams in the documentation are provided in the repository and can be loaded into the website draw.io for a more detailed view:
+    - ERD: ERD - Business Database Design 2024 - Coursework 1.drawio
+    - PDM: PDM - Business Database Design 2024 - Coursework 2.drawio
 
 
 ------------------------------------------------------------------------
 # 3. Requirements
 ------------------------------------------------------------------------
 ## Prerequisites:
-1. Python: Ensure you have Python installed on your system. You can download it from python.org.
+1. MySQL: Ensure that MySQL is installed on your system. You can download it from mysql.com.
 
-2. tabulate Library: Install the tabulate library to display formatted tables: pip install tabulate
+2. XAMPP: Download and install XAMPP to create a local server environment from Apache Friends.
 
-3. datetime Module: Python's datetime module is used for manipulating dates and times. It should be available by default in your Python installation.
+3. SQL Client: You may want to use an SQL client such as MySQL Workbench to interact with your database more easily.
 
-4. re Module: The re module is used for regular expression operations for input validation. It should be available by default in your Python installation.
+4. Python (optional): If utilizing Python for any additional tasks, ensure it is installed on your system. You can download it from python.org.
+
+5. tabulate Library (optional): If using Python, install the tabulate library for displaying formatted tables: pip install tabulate.
+
 ------------------------------------------------------------------------
 # 4. CONTRIBUTIONS
 ------------------------------------------------------------------------
